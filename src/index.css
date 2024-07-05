@@ -1,0 +1,90 @@
+.to-do-list {
+    /* Container styles */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .to-do-list h1 {
+    /* Title styles */
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    /* Input field styles */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-button {
+    /* Add button styles */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-button:hover {
+    /* Hover effect for add button */
+    background-color: #3e8e41;
+  }
+  
+  ol {
+    /* List styles */
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    /* List item styles */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .text {
+    /* Task text styles */
+    font-size: 18px;
+  }
+  
+  .delete-button, .move-up-button, .move-down-button {
+    /* Button styles for delete, move up, and move down */
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .move-up-button, .move-down-button {
+    background-color: rgb(61, 102, 235);
+  }
+  
+  .delete-button:hover, .move-up-button:hover, .move-down-button:hover {
+    /* Hover effects for buttons */
+    background-color: #d32f2f;
+  }
+  
+  /* Additional styles for responsiveness and aesthetics can be added here */
+  @media (max-width: 768px) {
+    .to-do-list {
+      width: 90%;
+    }
+  }
